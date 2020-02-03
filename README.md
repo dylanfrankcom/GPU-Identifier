@@ -17,7 +17,6 @@ For the time being you must download and compile from source.
 
 ## Shout-outs
 * Gustaf Zetterlund for his [OS X Icon Template](https://dribbble.com/shots/1614867-OS-X-Icon-Template-Sketch).
-* Sindre Sorhus' [create-dmg](https://github.com/sindresorhus/create-dmg) tool.
 * Cody Krieger's [gfxCardStatus](https://github.com/codykrieger/gfxCardStatus) for the original inspiration. Check it out if you would like a more complete, feature rich solution.
 
 ## Disclaimer
