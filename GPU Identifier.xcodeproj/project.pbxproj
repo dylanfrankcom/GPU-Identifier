@@ -11,6 +11,8 @@
 		31071A3723D21F9E00B72424 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31071A3623D21F9E00B72424 /* ViewController.swift */; };
 		31071A3923D21FA000B72424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31071A3823D21FA000B72424 /* Assets.xcassets */; };
 		31071A3C23D21FA000B72424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31071A3A23D21FA000B72424 /* Main.storyboard */; };
+		316FDDEA24B00414003E6112 /* GraphicsSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316FDDE924B00414003E6112 /* GraphicsSubscriber.swift */; };
+		31CFDC6024AC36AC000BB56E /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFDC5F24AC36AC000BB56E /* Graphics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		31071A3B23D21FA000B72424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31071A3D23D21FA000B72424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31071A3E23D21FA000B72424 /* GPU_Identifier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GPU_Identifier.entitlements; sourceTree = "<group>"; };
+		316FDDE924B00414003E6112 /* GraphicsSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsSubscriber.swift; sourceTree = "<group>"; };
+		31CFDC5F24AC36AC000BB56E /* Graphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				31071A3A23D21FA000B72424 /* Main.storyboard */,
 				31071A3D23D21FA000B72424 /* Info.plist */,
 				31071A3E23D21FA000B72424 /* GPU_Identifier.entitlements */,
+				31CFDC5F24AC36AC000BB56E /* Graphics.swift */,
+				316FDDE924B00414003E6112 /* GraphicsSubscriber.swift */,
 			);
 			path = "GPU Identifier";
 			sourceTree = "<group>";
@@ -90,7 +96,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Dylan Frankcom";
 				TargetAttributes = {
 					31071A3023D21F9E00B72424 = {
@@ -133,6 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				316FDDEA24B00414003E6112 /* GraphicsSubscriber.swift in Sources */,
+				31CFDC6024AC36AC000BB56E /* Graphics.swift in Sources */,
 				31071A3723D21F9E00B72424 /* ViewController.swift in Sources */,
 				31071A3523D21F9E00B72424 /* AppDelegate.swift in Sources */,
 			);
@@ -178,6 +186,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -238,6 +247,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
