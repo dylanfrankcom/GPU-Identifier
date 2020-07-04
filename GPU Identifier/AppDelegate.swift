@@ -33,7 +33,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusBarMenu.addItem(NSMenuItem.separator())
         
         statusBarMenu.addItem(NSMenuItem(title: "About GPU Identifier",
-                                         action: nil,
+                                         action: #selector(NSApplication.orderFrontStandardAboutPanel(_:)),
                                          keyEquivalent: ""))
         
         statusBarMenu.addItem(NSMenuItem.separator())
