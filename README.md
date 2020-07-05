@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://dylanfrank.com/img/GPUIdentifier.png" alt="GPU Identifier logo" width="256” maxHeight="256" />
+    <img src="https://dylanfrank.com/img/GPUIdentifier.png" alt="GPU Identifier logo" width="128” maxHeight="128" />
 </p>
 
 <p align="center">
