@@ -1,3 +1,15 @@
+<p align="center">
+    <img src="https://dylanfrank.com/img/GPUIdentifier.png" alt="GPU Identifier logo" width="256” maxHeight="256" />
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/macOS-10.15+-blue.svg" />
+    <img src="https://img.shields.io/badge/Swift-5.2-orange.svg" />
+    <a href="https://twitter.com/dylanfrankcom">
+        <img src="https://img.shields.io/badge/Contact-@dylanfrankcom-lightgrey.svg?style=flat" alt="Twitter: @dylanfrankcom" />
+    </a>
+</p>
+
 # GPU Identifier
 GPU Identifier is a lightweight application for your Mac's menu bar that lets you see what GPU your MacBook Pro is using. 
 
