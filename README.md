@@ -14,8 +14,8 @@
 GPU Identifier is a lightweight application for your Mac's menu bar that lets you see what GPU your MacBook Pro is using. 
 Easily see which GPU your dual-graphics MacBook Pro is currently using be it your integrated graphics (I) or dedicated graphics (D).
 
-![Int](https://dylanfrank.com/img/GPUIdentifier1.png)
-![Ded](https://dylanfrank.com/img/GPUIdentifier2.png)
+<img src="https://dylanfrank.com/img/GPUIdentifier1.png" alt="GPU Identifier Int" width="50%">
+<img src="https://dylanfrank.com/img/GPUIdentifier2.png" alt="GPU Identifier Ded" width="50%">
 
 ## Download
 For the time being you must download and compile from source.
