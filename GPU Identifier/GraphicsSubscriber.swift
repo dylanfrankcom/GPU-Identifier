@@ -10,6 +10,8 @@ import Foundation
 import Combine
 import Cocoa
 
+// To be implemented
+
 final class GraphicsSubscriber: AppDelegate, Subscriber {
     typealias Input = String
     typealias Failure = Never
