@@ -14,6 +14,9 @@
 GPU Identifier is a lightweight application for your Mac's menu bar that lets you see what GPU your MacBook Pro is using. 
 Easily see which GPU your dual-graphics MacBook Pro is currently using be it your integrated graphics (I) or dedicated graphics (D).
 
+![Int](https://dylanfrank.com/img/GPUIdentifier1.png)
+![Ded](https://dylanfrank.com/img/GPUIdentifier2.png)
+
 ## Download
 For the time being you must download and compile from source.
 
@@ -21,15 +24,15 @@ For the time being you must download and compile from source.
 * GPU Identifier is compatible with macOS 10.15 or later.
 
 * **Note**: GPU Identifier only works with dual-graphics equipped MacBook Pros. 
-  * MacBook Pro (15-inch, Mid 2012) [MacBookPro9,1],
-  * MacBook Pro (Retina, 15-inch, Mid 2012) [MacBookPro10,1],
-  * MacBook Pro (Retina, 15-inch, Early 2013) [MacBookPro10,1],
-  * MacBook Pro (Retina, 15-inch, Late 2013) [MacBookPro11,3],
-  * MacBook Pro (Retina, 15-inch, Mid 2014) [MacBookPro11,3],
-  * MacBook Pro (Retina, 15-inch, Mid 2015) [MacBookPro11,5],
-  * MacBook Pro (15 inch, 2016) [ MacBookPro13,3],
-  * MacBook Pro (15 inch, 2017) [MacBookPro14,3],
-  * MacBook Pro (15 inch, 2018/2019) [MacBookPro15,1 and MacBookPro15,3],
+  * MacBook Pro (15-inch, Mid 2012) [MacBookPro9,1]
+  * MacBook Pro (Retina, 15-inch, Mid 2012) [MacBookPro10,1]
+  * MacBook Pro (Retina, 15-inch, Early 2013) [MacBookPro10,1]
+  * MacBook Pro (Retina, 15-inch, Late 2013) [MacBookPro11,3]
+  * MacBook Pro (Retina, 15-inch, Mid 2014) [MacBookPro11,3]
+  * MacBook Pro (Retina, 15-inch, Mid 2015) [MacBookPro11,5]
+  * MacBook Pro (15 inch, 2016) [ MacBookPro13,3]
+  * MacBook Pro (15 inch, 2017) [MacBookPro14,3]
+  * MacBook Pro (15 inch, 2018/2019) [MacBookPro15,1 and MacBookPro15,3]
   * MacBook Pro (16 inch, 2019) [MacBookPro16,1]
 
 ## Shout-outs
