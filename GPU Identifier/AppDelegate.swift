@@ -7,8 +7,6 @@
 //
 
 import Cocoa
-import IOKit
-//import Combine
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -16,10 +14,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var statusBarItem: NSStatusItem!
     var statusBarGraphicsStatus = NSMenuItem(title: "Initializing...", action: nil, keyEquivalent: "")
     private var graphicsCard = Graphics()
-    private var timer: Timer?
+    private var timer = Timer()
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         
+        // Set up initial status bar
         let statusBar = NSStatusBar.system
         statusBarItem = statusBar.statusItem(withLength: NSStatusItem.squareLength)
         statusBarItem.button?.image = #imageLiteral(resourceName: "Unknown")
@@ -41,25 +40,27 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusBarMenu.addItem(NSMenuItem(title: "Quit GPU Identifier",
                                          action: #selector(NSApplication.terminate(_:)),
                                          keyEquivalent: "q"))
-        buildUI()
         
-        let timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(updateUI), userInfo: nil, repeats: true)
+
+        
+        // Set up a lenient timer to periodically see if UI should be updated
+        timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(updateUI), userInfo: nil, repeats: true)
         timer.tolerance = 1.0
         
-        // Potential Combine implementation
-        //let subscriber = GraphicsSubscriber()
-        //graphicsCard.$status.subscribe(subscriber)
+        // Obtain GPU Status and build the initial UI
+        buildUI()
         
     }
     
     func applicationWillTerminate(_ aNotification: Notification) {
-        timer?.invalidate()
+        timer.invalidate()
     }
     
     @objc func getGraphicsStatus() {
         graphicsCard.getStatus()
     }
     
+    // Builds the UI with the necessary items, invalidate the timer if the device in unsupported
     func buildUI() {
         if let button = self.statusBarItem.button {
             var icon: NSImage
@@ -74,6 +75,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             default:
                 icon = #imageLiteral(resourceName: "Unknown")
                 self.statusBarGraphicsStatus.title = "Unsupported Device"
+                timer.invalidate()
             }
             
             button.image = icon
@@ -82,6 +84,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
     }
     
+    // Update the UI only if the status of the graphics card has changed
     @objc func updateUI() {
         if graphicsCard.getStatus() {
             buildUI()

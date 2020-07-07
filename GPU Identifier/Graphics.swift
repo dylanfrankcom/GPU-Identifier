@@ -7,25 +7,30 @@
 //
 
 import Foundation
-import Combine
 
 class Graphics {
-    @Published var status: String = "" {
-        didSet {
-        }
-    }
+    var status: String = ""
     
     init() {
-        self.status = IORegistryEntryCreateCFProperty(IOServiceGetMatchingService(kIOMasterPortDefault,IOServiceNameMatching("AppleMuxControl")), "ActiveGPU" as CFString?, kCFAllocatorDefault, 0).takeUnretainedValue() as! String
+        if let activeGPU = IORegistryEntryCreateCFProperty(IOServiceGetMatchingService(kIOMasterPortDefault,IOServiceNameMatching("AppleMuxControl")), "ActiveGPU" as CFString?, kCFAllocatorDefault, 0) {
+            self.status = activeGPU.takeUnretainedValue() as! String
+        } else {
+            self.status = "Unsupported"
+        }
     }
  
     @discardableResult @objc func getStatus() -> Bool {
         var statusUpdated = false
         
-        let newStatus = IORegistryEntryCreateCFProperty(IOServiceGetMatchingService(kIOMasterPortDefault,IOServiceNameMatching("AppleMuxControl")), "ActiveGPU" as CFString?, kCFAllocatorDefault, 0).takeUnretainedValue() as! String
-        
-        if self.status != newStatus {
-            self.status = newStatus
+        if let activeGPU = IORegistryEntryCreateCFProperty(IOServiceGetMatchingService(kIOMasterPortDefault,IOServiceNameMatching("AppleMuxControl")), "ActiveGPU" as CFString?, kCFAllocatorDefault, 0) {
+            let newStatus = activeGPU.takeUnretainedValue() as! String
+            
+            if self.status != newStatus {
+                self.status = newStatus
+                statusUpdated = true
+            }
+        } else {
+            self.status = "Unsupported"
             statusUpdated = true
         }
         

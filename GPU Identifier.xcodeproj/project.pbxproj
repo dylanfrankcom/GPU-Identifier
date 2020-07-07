@@ -11,7 +11,6 @@
 		31071A3723D21F9E00B72424 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31071A3623D21F9E00B72424 /* ViewController.swift */; };
 		31071A3923D21FA000B72424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31071A3823D21FA000B72424 /* Assets.xcassets */; };
 		31071A3C23D21FA000B72424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31071A3A23D21FA000B72424 /* Main.storyboard */; };
-		316FDDEA24B00414003E6112 /* GraphicsSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316FDDE924B00414003E6112 /* GraphicsSubscriber.swift */; };
 		31CFDC6024AC36AC000BB56E /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFDC5F24AC36AC000BB56E /* Graphics.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +22,6 @@
 		31071A3B23D21FA000B72424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31071A3D23D21FA000B72424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31071A3E23D21FA000B72424 /* GPU_Identifier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GPU_Identifier.entitlements; sourceTree = "<group>"; };
-		316FDDE924B00414003E6112 /* GraphicsSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsSubscriber.swift; sourceTree = "<group>"; };
 		31CFDC5F24AC36AC000BB56E /* Graphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +62,6 @@
 				31071A3D23D21FA000B72424 /* Info.plist */,
 				31071A3E23D21FA000B72424 /* GPU_Identifier.entitlements */,
 				31CFDC5F24AC36AC000BB56E /* Graphics.swift */,
-				316FDDE924B00414003E6112 /* GraphicsSubscriber.swift */,
 			);
 			path = "GPU Identifier";
 			sourceTree = "<group>";
@@ -139,7 +136,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				316FDDEA24B00414003E6112 /* GraphicsSubscriber.swift in Sources */,
 				31CFDC6024AC36AC000BB56E /* Graphics.swift in Sources */,
 				31071A3723D21F9E00B72424 /* ViewController.swift in Sources */,
 				31071A3523D21F9E00B72424 /* AppDelegate.swift in Sources */,
@@ -283,7 +279,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 001;
+				CURRENT_PROJECT_VERSION = 002;
 				DEVELOPMENT_TEAM = CQ2KXM3NAZ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "GPU Identifier/Info.plist";
@@ -291,7 +287,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dylanfrankcom.GPU-Identifier";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -306,7 +302,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 001;
+				CURRENT_PROJECT_VERSION = 002;
 				DEVELOPMENT_TEAM = CQ2KXM3NAZ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "GPU Identifier/Info.plist";
@@ -314,7 +310,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dylanfrankcom.GPU-Identifier";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
