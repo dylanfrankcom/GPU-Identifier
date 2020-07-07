@@ -25,7 +25,7 @@ Easily see which GPU your dual-graphics MacBook Pro is currently using be it you
 <br/>
 <br/>
 
-GPU Identifier is available on the Mac App Store. If you prefer, the application can also be downloaded and compiled from source.
+GPU Identifier is available for free on the Mac App Store. If you prefer, the application can also be downloaded and compiled from source.
 
 ## Compatibility
 * GPU Identifier is compatible with macOS 10.15 or later.
