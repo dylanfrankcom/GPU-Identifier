@@ -10,6 +10,12 @@
     </a>
 </p>
 
+<p align="center">
+    <a href="https://apps.apple.com/us/app/id1522166576" target="_blank">
+      <img src="https://dylanfrank.com/img/mas.svg" alt="GPU Identifier on the Mac App Store" height="40px" align="left">
+    </a>
+</p>
+
 # GPU Identifier
 GPU Identifier is a lightweight application for your Mac's menu bar that lets you see what GPU your MacBook Pro is using. 
 Easily see which GPU your dual-graphics MacBook Pro is currently using be it your integrated graphics (I) or dedicated graphics (D).
@@ -18,12 +24,6 @@ Easily see which GPU your dual-graphics MacBook Pro is currently using be it you
 <img src="https://dylanfrank.com/img/GPUIdentifier2.png" alt="GPU Identifier Ded" width="50%">
 
 ## Download
-
-<a href="https://apps.apple.com/us/app/id1522166576" target="_blank">
-  <img src="https://dylanfrank.com/img/mas.svg" alt="GPU Identifier on the Mac App Store" height="40px" align="left">
-</a>
-<br/>
-<br/>
 
 GPU Identifier is available for free on the Mac App Store. If you prefer, the application can also be downloaded and compiled from source.
 
