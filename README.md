@@ -12,7 +12,7 @@
 
 <p align="center">
     <a href="https://apps.apple.com/us/app/id1522166576" target="_blank">
-      <img src="https://dylanfrank.com/img/mas.svg" alt="GPU Identifier on the Mac App Store" height="40px" align="left">
+      <img src="https://dylanfrank.com/img/mas.svg" alt="GPU Identifier on the Mac App Store" height="40px">
     </a>
     <br/>
 </p>
