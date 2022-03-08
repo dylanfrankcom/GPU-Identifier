@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-    <a href="https://apps.apple.com/us/app/id1522166576" target="_blank">
+    <a href="https://apps.apple.com/ca/app/id1522166576" target="_blank">
       <img src="https://dylanfrank.com/img/mas.svg" alt="GPU Identifier on the Mac App Store" height="40px">
     </a>
     <br/>
@@ -24,7 +24,7 @@ GPU Identifier is written entirely in Swift and does not collect or transmit any
 GPU Identifier is available for free on the Mac App Store.
 
 <p align="center">
-    <img src="https://dylanfrank.com/img/GPU1.png" alt="GPU Identifier" width="75%">
+    <img src="https://dylanfrank.com/img/GPU1.png" alt="GPU Identifier" width="80%">
 </p>
 
 ## Download
