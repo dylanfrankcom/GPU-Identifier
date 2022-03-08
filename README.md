@@ -26,6 +26,7 @@ GPU Identifier is available for free on the Mac App Store.
 <p align="center">
     <img src="https://dylanfrank.com/img/GPU1.png" alt="GPU Identifier" width="75%">
 </p>
+
 ## Download
 
 GPU Identifier is available for free on the Mac App Store. If you prefer, the application can also be downloaded and compiled from source.
