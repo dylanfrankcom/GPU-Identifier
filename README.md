@@ -5,8 +5,7 @@
 <p align="center">
     <img src="https://img.shields.io/badge/macOS-10.15+-blue.svg" />
     <img src="https://img.shields.io/badge/Swift-5.2-orange.svg" />
-    <a href="https://twitter.com/dylanfrankcom">
-        <img src="https://img.shields.io/badge/Contact-@dylanfrankcom-lightgrey.svg?style=flat" alt="Twitter: @dylanfrankcom" />
+    <img alt="Mastodon Follow" src="https://img.shields.io/mastodon/follow/109519296875218134">
     </a>
 </p>
 
@@ -49,7 +48,7 @@ GPU Identifier is available for free on the Mac App Store. If you prefer, the ap
 ## Future
 
 The development roadmap for the application can be found on <a href="https://trello.com/b/f0MK7pjX/gpu-identifier-roadmap" target="_blank">Trello</a>.
-If you have any feature requests please <a href="mailto:hello@dylanfrank.com?subject=GPU Identifier Feature Request" target="_blank">email</a> or <a href="https://twitter.com/dylanfrankcom" target="_blank">tweet</a> me!
+If you have any feature requests please <a href="mailto:hello@dylanfrank.com?subject=GPU Identifier Feature Request" target="_blank">email</a> or <a href="https://mastodon.social/@dylanfrankcom/" target="_blank">toot</a> me!
 
 ## Shout-outs
 * Cody Krieger's [gfxCardStatus](https://github.com/codykrieger/gfxCardStatus) for the original inspiration. Check it out if you would like a more complete, feature rich solution.
