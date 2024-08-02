@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://dylanfrank.com/img/GPUIdentifier.png" alt="GPU Identifier logo" width="128” maxHeight="128" />
+    <img src="https://dylanfrank.com/images/projects/gpu-identifier/appIcon.png" alt="GPU Identifier logo" width="128” maxHeight="128" />
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
 
 <p align="center">
     <a href="https://apps.apple.com/ca/app/id1522166576" target="_blank">
-      <img src="https://dylanfrank.com/img/mas.svg" alt="GPU Identifier on the Mac App Store" height="40px">
+      <img src="https://dylanfrank.com/images/projects/gpu-identifier/mas.svg" alt="GPU Identifier on the Mac App Store" height="40px">
     </a>
     <br/>
 </p>
@@ -24,7 +24,7 @@ GPU Identifier is written entirely in Swift and does not collect or transmit any
 GPU Identifier is available for free on the Mac App Store.
 
 <p align="center">
-    <img src="https://dylanfrank.com/img/GPU1.png" alt="GPU Identifier" width="80%">
+    <img src="https://dylanfrank.com/images/projects/gpu-identifier/hero.png" alt="GPU Identifier" width="80%">
 </p>
 
 ## Download
