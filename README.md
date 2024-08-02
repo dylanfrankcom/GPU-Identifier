@@ -32,7 +32,7 @@ GPU Identifier is available for free on the Mac App Store. If you prefer, the ap
 
 ## Compatibility
 * GPU Identifier is compatible with macOS 10.15 or later.
-* Not currently optimized for Apple Silicon as these machines do not have dual-graphics... yet.
+* Not currently optimized for Apple Silicon as these machines do not have dual-graphics.
 * GPU Identifier only works with dual-graphics equipped MacBook Pros. 
   * MacBook Pro (15-inch, Mid 2012) [MacBookPro9,1]
   * MacBook Pro (Retina, 15-inch, Mid 2012) [MacBookPro10,1]
@@ -47,8 +47,7 @@ GPU Identifier is available for free on the Mac App Store. If you prefer, the ap
 
 ## Future
 
-The development roadmap for the application can be found on <a href="https://trello.com/b/f0MK7pjX/gpu-identifier-roadmap" target="_blank">Trello</a>.
-If you have any feature requests please <a href="mailto:hello@dylanfrank.com?subject=GPU Identifier Feature Request" target="_blank">email</a> or <a href="https://mastodon.social/@dylanfrankcom/" target="_blank">toot</a> me!
+This application is effectively sunset given that Apple Silicon does not support dedicated or external graphics from third parties. However, if you are a user and have any feature requests you can <a href="mailto:hello@dylanfrank.com?subject=GPU Identifier Feature Request" target="_blank">email</a> or <a href="https://mastodon.social/@dylanfrankcom/" target="_blank">toot</a> me!
 
 ## Shout-outs
 * Cody Krieger's [gfxCardStatus](https://github.com/codykrieger/gfxCardStatus) for the original inspiration. Check it out if you would like a more complete, feature rich solution.
