@@ -9,18 +9,10 @@
     </a>
 </p>
 
-<p align="center">
-    <a href="https://apps.apple.com/ca/app/id1522166576" target="_blank">
-      <img src="https://dylanfrank.com/images/projects/gpu-identifier/mas.svg" alt="GPU Identifier on the Mac App Store" height="40px">
-    </a>
-    <br/>
-</p>
-
 # GPU Identifier
 GPU Identifier is a lightweight application for your Mac's menu bar that lets you easily see what GPU your dual-graphics equipped MacBook Pro is using.
 This is helpful if you use applications that take advantage of the dedicated GPU when in use, like Sketch or iMovie, and can help you save battery life knowing that the more powerful GPU is in use if these applications are running in the background.
 GPU Identifier is written entirely in Swift and does not collect or transmit any of your data.
-GPU Identifier is available for free on the Mac App Store.
 
 <p align="center">
     <img src="https://dylanfrank.com/images/projects/gpu-identifier/hero.png" alt="GPU Identifier" width="80%">
@@ -48,6 +40,8 @@ GPU Identifier is available for free on the Mac App Store. If you prefer, the ap
 ## Future
 
 This application is effectively sunset given that Apple Silicon does not support dedicated or external graphics from third parties. However, if you are a user and have any feature requests you can <a href="mailto:hello@dylanfrank.com?subject=GPU Identifier Feature Request" target="_blank">email</a> or <a href="https://mastodon.social/@dylanfrankcom/" target="_blank">toot</a> me!
+
+Edit: GPU Identifier was removed from the Mac App Store on August 19, 2024. Thank you everyone who gave it a try!
 
 ## Shout-outs
 * Cody Krieger's [gfxCardStatus](https://github.com/codykrieger/gfxCardStatus) for the original inspiration. Check it out if you would like a more complete, feature rich solution.
