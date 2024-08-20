@@ -18,10 +18,6 @@ GPU Identifier is written entirely in Swift and does not collect or transmit any
     <img src="https://dylanfrank.com/images/projects/gpu-identifier/hero.png" alt="GPU Identifier" width="80%">
 </p>
 
-## Download
-
-GPU Identifier is available for free on the Mac App Store. If you prefer, the application can also be downloaded and compiled from source.
-
 ## Compatibility
 * GPU Identifier is compatible with macOS 10.15 or later.
 * Not currently optimized for Apple Silicon as these machines do not have dual-graphics.
